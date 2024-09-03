@@ -26,7 +26,7 @@ const app = express();
 //allow access to front end
 app.use(cors(
   {
-    origin:["https://sociopedia-client-one.vercel.app/"],
+    origin:["https://sociopedia-client-one.vercel.app"],
     methods: ["POST","GET"],
     credentials:true
   }
