@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://deploy-mern-api-sandy.vercel.app/assets/${image}`}
+        src={`https://deploy-mern-api-weld.vercel.app/assets/${image}`}
       />
     </Box>
   );
