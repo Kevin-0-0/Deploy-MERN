@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://deploy-mern-api-weld.vercel.app/users/${_id}/${friendId}`,
+      `https://api-one-lyart-74.vercel.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
