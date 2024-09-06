@@ -9,7 +9,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   const token = useSelector((state) => state.token);
 
   const getPosts = async () => {
-    const response = await fetch("https://deploy-mern-api-weld.vercel.app", {//check this /
+    const response = await fetch("https://deploy-mern-api-weld.vercel.app/", {//check this /
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
