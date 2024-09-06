@@ -25,7 +25,7 @@ dotenv.config();
 const app = express();
 //allow access to front end
 // app.use(cors({origin:['https://sociopedia-client-one.vercel.app']}));
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
