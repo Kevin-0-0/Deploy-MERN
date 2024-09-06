@@ -11,6 +11,9 @@
         {
             "src": "/(.*)",
             "dest": "/index.js"
-        }
+            "methods":["GET","POST","PUT","DELETE","PATCH","OPTIONS"],
+            "Headers":{
+                "Access-Controll-Allow-Origin":"*"
+            }
     ]
 }
